@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AppController {
 
     @GetMapping
-    public String home(){
+    public String index(){
         return "Hello github, Hello gitlab, Hello bitbucket, Hello all";
     }
 }
