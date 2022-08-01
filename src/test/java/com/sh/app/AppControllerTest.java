@@ -19,7 +19,7 @@ class AppControllerTest {
     @DisplayName("인덱스요청 테스트")
     public void testIndex(){
         // given
-        String expected = "c";
+        String expected = "a";
         // when
         String text = appController.index();
         // then
