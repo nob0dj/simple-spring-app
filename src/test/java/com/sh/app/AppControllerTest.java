@@ -19,7 +19,7 @@ class AppControllerTest {
     @DisplayName("인덱스요청 테스트")
     public void testIndex(){
         // given
-        String expected = "I love Jenkins";
+        String expected = "We love Jenkins";
         // when
         String text = appController.index();
         // then
