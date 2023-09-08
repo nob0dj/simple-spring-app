@@ -11,7 +11,7 @@
     <groupId>com.sh</groupId>
     <artifactId>simple-spring-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>simple-spring-app</name>
     <description>simple-spring-app</description>
     <properties>

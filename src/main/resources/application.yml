@@ -2,3 +2,6 @@ server:
   servlet:
     context-path: /app
   port: 10000
+
+app:
+  version: 1.0.1
