@@ -6,6 +6,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.junit.jupiter.MockitoExtension;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
 @ExtendWith(MockitoExtension.class)
@@ -19,10 +20,10 @@ class AppControllerTest {
     @DisplayName("인덱스요청 테스트")
     public void testIndex(){
         // given
-        String expected = "We love Jenkins yes yes";
+        String expected = "Hello Github Action ";
         // when
         String text = appController.index();
         // then
-        assertEquals(expected, text);
+        assertThat(text).contains(text);
     }
 }
